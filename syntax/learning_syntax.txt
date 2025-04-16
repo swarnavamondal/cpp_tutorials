@@ -1,0 +1,19 @@
+#include <iostream> is a header file library that lets us work with input and output objects, such as cout . 
+
+using namespace std means that we can use names for objects and variables from the standard library.
+if we dont use namespace std we have to use the keyword 'std' followed by :: operator
+
+cout is an object which prints the desired output or variable given by the user
+
+endl stands for end line . this makes sure while printing the next statement it is display in the different line.
+you can also use \n which makes a new line.
+if you want to print in a horizontal tab use \t
+
+int main(){} is the main function, the scope inside { } is the code that will be executed.
+
+return 0; this line ends the main function but not always nessecary
+
+Comments can be used to explain C++ code, and to make it more readable. It can also be used to prevent execution when testing alternative code.
+Comments can be singled-lined or multi-lined.
+single lined //
+multi lined /* */
