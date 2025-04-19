@@ -1,0 +1,19 @@
+Strings in C++ are a sequence of characters used to represent text. 
+C++ provides two main ways to work with strings: C-style strings and the `std::string` class from the Standard Template Library (STL).
+
+there are two ways to initialie a string :
+string str ="abcd";
+char str[] = "abcd";
+
+String concatenation can be done in 2 ways :
+-by using + 
+-by using .append()     //note : after using append string 1 will change to the addition of both strings 1 and 2
+
+To find length of a string we can use .length() or .size()
+
+taking input from user 
+-using cin // cin can only take a single word input . 
+using spaces or tabs will terminate the string and if u have initialized a string after that it will get assigned to that string
+
+-using getline(cin,str) //this will allow you to input the string with spaces 
+
