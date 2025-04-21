@@ -1,0 +1,5 @@
+c++ has a library called cmath. This library allows us to use different math functions and operations like:
+round, min, max, sqrt, log.
+
+boolean data types can store data of two kinds : true and false or 1 and 0
+boolean conditions are also used in if-else statements and while loops and any other conditional statement scopes.
